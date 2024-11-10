@@ -11,7 +11,7 @@ const customerSlice=createSlice({
         },
         deleteCustomer(state,action){
             const deleteIndex=action.payload;
-            state.filter((val,index)=> index !==deleteIndex)
+            return state.filter((val,index)=> index !==deleteIndex)
         }
     }
 })
