@@ -1,6 +1,6 @@
 import React from "react";
 import {useSelector} from "react-redux";
-import { deleteCustomer } from "./slices/Customerslice";
+import { deleteCustomer } from "./slices/customerSlice";
 import { useDispatch } from "react-redux";
 export default function CustomerView()
 {
